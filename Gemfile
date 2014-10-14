@@ -28,7 +28,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'globalize', '4.0.2'
-gem 'globalize-accessors', '0.1.5'
 
 gem 'rails_12factor', group: :production
 # Use ActiveModel has_secure_password
