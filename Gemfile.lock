@@ -41,6 +41,8 @@ GEM
     globalize (4.0.2)
       activemodel (>= 4.0.0, < 5)
       activerecord (>= 4.0.0, < 5)
+    globalize-accessors (0.1.5)
+      globalize (>= 3)
     hike (1.2.3)
     i18n (0.6.11)
     jbuilder (2.2.2)
@@ -124,6 +126,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
   globalize (= 4.0.2)
+  globalize-accessors (= 0.1.5)
   jbuilder (~> 2.0)
   jquery-rails
   pg
