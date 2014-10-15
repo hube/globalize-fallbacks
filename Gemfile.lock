@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/hube/globalize.git
+  revision: 404f4175987ebbf643406968609fb32c073cfb6b
+  branch: fix-fallbacks
+  specs:
+    globalize (4.0.2)
+      activemodel (>= 4.0.0, < 5)
+      activerecord (>= 4.0.0, < 5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -38,9 +47,6 @@ GEM
     coffee-script-source (1.8.0)
     erubis (2.7.0)
     execjs (2.2.1)
-    globalize (4.0.2)
-      activemodel (>= 4.0.0, < 5)
-      activerecord (>= 4.0.0, < 5)
     hike (1.2.3)
     i18n (0.6.11)
     jbuilder (2.2.2)
@@ -122,7 +128,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
-  globalize (= 4.0.2)
+  globalize!
   jbuilder (~> 2.0)
   jquery-rails
   pg
